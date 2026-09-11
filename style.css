@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: aquamarine;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+header nav a{
+  text-decoration: none;
+  color: rgb(20, 28, 28);
+  border: 2px solid black;
+  padding: 5px;
+}
+
+main{
+  padding: 5px 10px;
+  min-height: 80vh;
+}
+
+footer {
+  background-color: aquamarine;
+  min-height: 100px;
+  padding: 5px 10px;
+}
+
+.services .container {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.services .card {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+header .visit{
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 5px;
+}
+.feedback{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: 20px;
+}
+
+.feedback input,
+.feedback select,
+.feedback textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.feedback input:focus,
+.feedback textarea:focus {
+  border-color: #1a3c8c;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(60, 60, 20, 0.6);
+}
+
+.feedback .submit {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: #1a3c8c;
+  transition: all 0.2s;
+}
+
+.feedback .submit:hover {
+  background-color: #1a3c8c;
+  color: aliceblue;
+}
